@@ -1,6 +1,5 @@
 # ALX Frontend - Short Specialization
 <img src="images/css-ie.gif" alt="unable to dislay meme" width="100%" height="100%" />
-# alx-frontend-javascript
 <p> 
     Front-end developers specialize in building the visible part of a website that users interact with, like buttons, text, and images. 
     Back-end developers focus on building the inner processes of a website that manage how it functions.
