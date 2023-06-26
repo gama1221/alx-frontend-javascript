@@ -1,5 +1,7 @@
 # ALX Frontend - Short Specialization
-
+<center>
+<img src="images/css-ie.gif" alt="unable to dislay meme" />
+</center>
 # alx-frontend-javascript
 <p> 
     Front-end developers specialize in building the visible part of a website that users interact with, like buttons, text, and images. 
