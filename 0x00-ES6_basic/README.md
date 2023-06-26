@@ -91,5 +91,24 @@ export default function getSumOfHoods(initialNumber, expansion1989, expansion201
   return initialNumber + expansion1989 + expansion2019;
 }
 ```
+
+## 4. [Rest parameter syntax for functions](https://github.com/gama1221/alx-frontend-javascript/blob/main/0x00-ES6_basic/4-rest-parameter.js)
+    - Modify the following function to return the number of arguments passed to it using the rest parameter syntax
+```js
+export default function returnHowManyArguments(...numOfArgs) {
+  /* eslint-disable */
+  return numOfArgs.length;
+}
+```
+
+## 5. [The wonders of spread syntax](https://github.com/gama1221/alx-frontend-javascript/blob/main/0x00-ES6_basic/5-spread-operator.js)
+    - Using spread syntax, concatenate 2 arrays and each character of a string by modifying the function below. Your function body should be one line long.
+```js
+export default function concatArrays(array1, array2, string) {
+  /* eslint-disable */
+  
+}
+```
+
 ## Author
 # Getinet [LinkedIn](https://www.linkedin.com/in/getinet-mekonnen/)
