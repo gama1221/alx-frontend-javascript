@@ -29,23 +29,23 @@
     - Modify
         - function taskFirst to instantiate variables using const
         - function taskNext to instantiate variables using let
-    ```javascript
-    export function taskFirst() {
-        var task = 'I prefer const when I can.';
-        return task;
-        }
+```js
+export function taskFirst() {
+    var task = 'I prefer const when I can.';
+    return task;
+    }
 
-        export function getLast() {
-        return ' is okay';
-        }
+    export function getLast() {
+    return ' is okay';
+    }
 
-        export function taskNext() {
-        var combination = 'But sometimes let';
-        combination += getLast();
+    export function taskNext() {
+    var combination = 'But sometimes let';
+    combination += getLast();
 
-        return combination;
-        }
-    ```
+    return combination;
+    }
+```
 ## 1. [Block Scope](https://github.com/gama1221/alx-frontend-javascript/blob/main/0x00-ES6_basic/1-block-scoped.js)
     - Given what you’ve read about var and hoisting, modify the variables inside the function taskBlock so that the variables aren’t overwritten inside the conditional block.
     ```javascript
