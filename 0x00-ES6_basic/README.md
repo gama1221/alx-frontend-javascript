@@ -29,7 +29,7 @@
     - Modify
         - function taskFirst to instantiate variables using const
         - function taskNext to instantiate variables using let
-    ```js
+    ```javascript
     export function taskFirst() {
         var task = 'I prefer const when I can.';
         return task;
@@ -48,7 +48,7 @@
     ```
 ## 1. [Block Scope](https://github.com/gama1221/alx-frontend-javascript/blob/main/0x00-ES6_basic/1-block-scoped.js)
     - Given what you’ve read about var and hoisting, modify the variables inside the function taskBlock so that the variables aren’t overwritten inside the conditional block.
-    ```js
+    ```javascript
     export default function taskBlock(trueOrFalse) {
         var task = false;
         var task2 = true;
@@ -63,7 +63,7 @@
     ```
 ## 2. [Arrow functions](https://github.com/gama1221/alx-frontend-javascript/blob/main/0x00-ES6_basic/2-arrow.js)
     - Rewrite the following standard function to use ES6’s arrow syntax of the function add (it will be an anonymous function after)
-    ```js
+    ```javascript
     export default function getNeighborhoodsList() {
         this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
