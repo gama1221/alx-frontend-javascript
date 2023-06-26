@@ -125,5 +125,21 @@ export default function getSanFranciscoDescription() {
 }
 ```
 
+## 7. [Object property value shorthand syntax](https://github.com/gama1221/alx-frontend-javascript/blob/main/0x00-ES6_basic/7-getBudgetObject.js)
+    - Notice how the keys and the variable names are the same?
+    - Modify the following function’s budget object to simply use the keyname instead.
+```js
+export default function getBudgetObject(income, gdp, capita) {
+  const budget = {
+    income: income,
+    gdp: gdp,
+    capita: capita,
+  };
+
+  return budget;
+}
+```
+
+
 ## Author
 # Getinet [LinkedIn](https://www.linkedin.com/in/getinet-mekonnen/)
