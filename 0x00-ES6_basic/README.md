@@ -63,7 +63,7 @@
     ```
 ## 2. [Arrow functions](https://github.com/gama1221/alx-frontend-javascript/blob/main/0x00-ES6_basic/2-arrow.js)
     - Rewrite the following standard function to use ES6’s arrow syntax of the function add (it will be an anonymous function after)
-    ```javascript
+    ```
     export default function getNeighborhoodsList() {
         this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
