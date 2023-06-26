@@ -14,4 +14,4 @@
 * [0x04. Typescript](https://github.com/gama1221/alx-frontend-javascript/tree/main/0x04-TypeScript/README.md)
 
 ## Author
-# Getinet [LinkedIn](https://www.linkedin.com/in/getinet-mekonnen/)
+# Getinet [LinkedIn](https://www.linkedin.com/in/getinet-mekonnen/) => or follow this link https://www.linkedin.com/in/getinet-mekonnen/
