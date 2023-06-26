@@ -142,7 +142,7 @@ export default function getBudgetObject(income, gdp, capita) {
 
 ## 8. [No need to create empty objects before adding in properties](https://github.com/gama1221/alx-frontend-javascript/blob/main/0x00-ES6_basic/8-getBudgetCurrentYear.js)
     - Rewrite the getBudgetForCurrentYear function to use ES6 computed property names on the budget object
-    
+
 ```js
 function getCurrentYear() {
   const date = new Date();
@@ -157,6 +157,25 @@ export default function getBudgetForCurrentYear(income, gdp, capita) {
   budget[`capita-${getCurrentYear()}`] = capita;
 
   return budget;
+}
+```
+
+## 8. [ES6 method properties](https://github.com/gama1221/alx-frontend-javascript/blob/main/0x00-ES6_basic/9-getFullBudget.js)
+    - Rewrite getFullBudgetObject to use ES6 method properties in the fullBudget object
+```js
+export default function getFullBudgetObject(income, gdp, capita) {
+  const budget = getBudgetObject(income, gdp, capita);
+  const fullBudget = {
+    ...budget,
+    getIncomeInDollars: function (income) {
+      return `$${income}`;
+    },
+    getIncomeInEuros: function (income) {
+      return `${income} euros`;
+    },
+  };
+
+  return fullBudget;
 }
 ```
 
