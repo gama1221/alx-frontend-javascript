@@ -1,6 +1,10 @@
-export default function getResponseFromAPI() {
-  /** eslint-disable */
+export default function getRespondFromAPI() {
+  /* eslint-disable */
   return new Promise((resolve, reject) => {
-    resolve() ? resolve() : reject();
+      if (true) {
+	resolve();
+      } else {
+	reject();
+      }
   });
 }
