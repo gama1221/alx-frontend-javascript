@@ -1,11 +1,9 @@
 function getFullResponseFromAPI(success) {
-  if (typeof success === 'boolean' && success === true) {
-    return Promise.resolve({
+  return (typeof success === 'boolean' && success === true) ?
+    Promise.resolve({
       status: 200,
       body: 'Success',
-    })
-  }
-  else{
-    return Promise.reject('The fake API is not working currently');
-  }
+    }) 
+    : 
+    Promise.reject('The fake API is not working currently');
 }
