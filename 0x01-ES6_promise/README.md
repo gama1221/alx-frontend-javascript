@@ -19,7 +19,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
   - Your code will be verified against lint using ESLint
   - All of your functions must be exported
 * Resources
-  * Read or watch:
+* Read or watch:
   * [Promise](https://intranet.alxswe.com/rltoken/8IEjDdrFqrfsXUV9frNmKA) and [Promise w3c](https://www.w3schools.com/js/js_promise.asp)
   * [JavaScript Promise: An introduction](https://intranet.alxswe.com/rltoken/EnBUkluIIlLr0Z3dRJV4LQ)
   * [Await](https://intranet.alxswe.com/rltoken/SALOZ-GAD5GVCTnK1iTCdA)
