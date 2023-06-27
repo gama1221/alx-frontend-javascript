@@ -1,4 +1,4 @@
-function getFullResponseFromAPI(success) {
+export default function getFullResponseFromAPI(success) {
   return (typeof success === 'boolean' && success === true) ?
     Promise.resolve({
       status: 200,
