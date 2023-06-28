@@ -1,4 +1,5 @@
 export default function getFullResponseFromAPI(success) {
+  /* eslint-disable */
   return (typeof success === 'boolean' && success === true) ?
     Promise.resolve({
       status: 200,
