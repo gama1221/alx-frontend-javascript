@@ -4,7 +4,6 @@ export default function handleResponseFromAPI(promise){
     console.log('Got a response from the API'),
     {status: 200,body: 'success'}
   ):(
-    console.log('Got a response from the API'),
-    Error
+    console.log(Error('Got a response from the API'))
   )
 }
