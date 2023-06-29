@@ -3,32 +3,33 @@ import Currency from './3-currency';
 export default class Pricing {
   /* eslint-disable */
   constructor(amount, currency) {
-    this._amount = amount;
     this._currency = currency;
+    this._amount = amount;
   }
   /**
    * Getter and setter methods for each attributes
   */
 
-  get amount() {
-    return this._amount;
-  }
   get currency() {
     return this._currency;
   }
-  set amount(Amount) {
-    this._amount = Amount;
+
+  get amount() {
+    return this._amount;
   }
+
   set currency(Currency) {
     this._currency = Currency;
   }
 
-  /**
+  set amount(Amount) {
+    this._amount = Amount;
+  }
+ /**
    * displayFullPrice that returns the attributes in the following format amount currency_name (currency_code).
   */
-
   displayFullPrice() {
-    return `${this._amount} ${this._currency.displayFullCurrency()}`;
+    return `${this._amount} ${this._currency.displayFullCurrency()}`; 
   }
 
   /**
@@ -39,7 +40,6 @@ export default class Pricing {
    * @param {Number} conversionRate 
    * @returns the product of amount with conversionRate 
    */
-
   static convertPrice(amount, conversionRate) {
     return amount * conversionRate;
   }
