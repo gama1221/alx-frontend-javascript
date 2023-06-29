@@ -1,5 +1,6 @@
 import Building from "./5-building";
-export default class SkyHighBuilding extends Building {
+
+class SkyHighBuilding extends Building {
   /* eslint-disable */
   constructor(sqft, floors) {
     super(sqft);
@@ -14,3 +15,5 @@ export default class SkyHighBuilding extends Building {
     return `Evacuate slowly the ${this._floors} floors`;
   }
 }
+
+export default SkyHighBuilding;
