@@ -1,18 +1,17 @@
-import Building from "./5-building";
+import Building from './5-building';
 
 class SkyHighBuilding extends Building {
-  /* eslint-disable */
   constructor(sqft, floors) {
     super(sqft);
     this._floors = floors;
   }
 
   get floors() {
-    return this._floors;
+    return (this._floors);
   }
 
   evacuationWarningMessage() {
-    return `Evacuate slowly the ${this._floors} floors`;
+    return (`Evacuate slowly the ${this.floors} floors`);
   }
 }
 
