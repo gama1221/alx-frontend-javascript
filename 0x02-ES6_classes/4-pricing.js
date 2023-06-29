@@ -27,7 +27,7 @@ export default class Pricing {
    * displayFullPrice that returns the attributes in the following format amount currency_name (currency_code).
   */
 
-  displayFullPrice(){
+  displayFullPrice() {
     return `${this._amount} ${this._currency.displayFullCurrency()}`;
   }
 
@@ -40,7 +40,7 @@ export default class Pricing {
    * @returns the product of amount with conversionRate 
    */
 
-  static convertPrice(amount, conversionRate){
+  static convertPrice(amount, conversionRate) {
     return amount * conversionRate;
   }
 }
