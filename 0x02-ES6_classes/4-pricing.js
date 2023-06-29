@@ -25,11 +25,11 @@ export default class Pricing {
   set amount(Amount) {
     this._amount = Amount;
   }
- /**
-   * displayFullPrice that returns the attributes in the following format amount currency_name (currency_code).
-  */
+  /**
+    * displayFullPrice that returns the attributes in the following format amount currency_name (currency_code).
+   */
   displayFullPrice() {
-    return `${this._amount} ${this._currency.displayFullCurrency()}`; 
+    return `${this._amount} ${this._currency.displayFullCurrency()}`;
   }
 
   /**
