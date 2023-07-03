@@ -7,7 +7,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
   - Typed arrays
   - The Set, Map, and Weak link data structures
 * Requirements
-  - All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
+  - All your files will be executed on Uclsbuntu 18.04 LTS using NodeJS 12.11.x
   - Allowed editors: vi, vim, emacs, Visual Studio Code
   - All your files should end with a new line
   - A README.md file, at the root of the folder of the project, is mandatory
