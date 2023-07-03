@@ -1,7 +1,9 @@
-const getListStudents = () => [
+const getListStudents = () => {
+  /* eslint-disable */
+  [
   { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
   { id: 2, firstName: 'James', location: 'Columbia' },
   { id: 5, firstName: 'Serena', location: 'San Francisco' },
-]
-/* eslint-disable */
+]}
+
 export default getListStudents;
