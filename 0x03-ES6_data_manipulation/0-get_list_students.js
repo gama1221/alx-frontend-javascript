@@ -1,4 +1,4 @@
-const getListStudents = () => {
+export default function getListStudents() {
   /* eslint-disable */
   return [
     { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
@@ -6,4 +6,3 @@ const getListStudents = () => {
     { id: 5, firstName: 'Serena', location: 'San Francisco' },
   ]
 }
-export default getListStudents;
