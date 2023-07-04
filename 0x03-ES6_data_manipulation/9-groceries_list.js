@@ -1,4 +1,5 @@
 export default function groceriesList() {
+  /* eslint-disable */
   const map = new Map();
   map.set('Apples', 10);
   map.set('Tomatoes', 10);
